@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SelectableLabelApp"
+             xmlns:custom="clr-namespace:SelectableLabelApp.CustomControls"
+             x:Class="SelectableLabelApp.MainPage">
+
+    <Grid>
+        <custom:SelectableLabel Text="This text can be selected!" 
+                                HorizontalOptions="CenterAndExpand" 
+                                VerticalOptions="CenterAndExpand"
+                                FontSize="Small"/>
+    </Grid>
+
+</ContentPage>
